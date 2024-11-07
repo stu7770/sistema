@@ -1,0 +1,230 @@
+body{
+    background-color: aliceblue;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+/*Cajaprincipal*/
+#Contenido2{
+
+    color:aliceblue;
+    width: 1000;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*encabezado*/
+.cabeza{
+    background-color: #281250;
+    padding: 10px;
+    font-size: 20px;
+  
+}
+
+
+/*bienvenida*/
+#comienzo{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(rgb(250, 172, 70), rgb(253, 95, 95));
+    border-radius: 40px;
+    width: auto;
+    height: 120px;
+    text-align: center;
+    margin: 0px 10px 50px 10px;
+}
+
+
+/*menu de opciones*/
+.inicio{
+    background: linear-gradient(rgb(39, 181, 247), rgb(176, 171, 245));
+    border-radius: 40px;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    padding: 90px 15px 0px 15px;
+    margin: -50px 50px 50px 50px;
+}
+
+
+
+/*botones*/
+
+
+
+.but1{
+    
+ 
+    height: 152px;
+    width: 400px;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    border: black 1px solid;
+    background: linear-gradient(rgb(126, 214, 255), rgb(165, 249, 255)); 
+   
+   
+   
+}
+#imgA{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    border-left: 40px;
+    border-top-left-radius: 40px;
+    border: black 1px solid;
+ 
+
+}
+#img1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+   
+}
+.but1:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+
+
+
+.but2{
+
+    height: 152px;
+    width: 400px;
+    top: 600px;
+    left: 450px;
+    position: absolute;
+    border: black 1px solid;
+    background: linear-gradient(rgb(126, 214, 255), rgb(165, 249, 255)); 
+
+}
+#imgB{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    border: black 1px solid;
+    border-bottom-left-radius: 40px;
+
+}
+#img2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 120px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+.but2:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+
+
+.but3{
+
+    height: 152px;
+    width: 400px;
+    top: 400px; 
+    right: 450px;
+    position: absolute;
+    border: black 1px solid;
+    background: linear-gradient(rgb(126, 214, 255), rgb(165, 249, 255));
+     
+
+    
+    
+}
+#imgC{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    right:250px;
+    border: black 1px solid;
+    border-top-right-radius: 40px;
+
+}
+#img3{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+.but3:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+
+
+
+.but4{
+
+    height: 152px;
+    width: 400px;
+    top: 600px; 
+    right: 450px;
+    position: absolute;
+    border: black 1px solid;
+    background: linear-gradient(rgb(126, 214, 255), rgb(165, 249, 255)); 
+
+
+}
+#imgD{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 600px;
+    right: 250px;
+    border: black 1px solid;
+    border-bottom-right-radius: 40px;
+
+}
+#img4{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 130px;
+    padding-right: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.but4:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+ 
+
+/*pie de pagina*/
+#footer{
+    background-color: #281250;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 72px;
+    margin: 0px;
+}
+    

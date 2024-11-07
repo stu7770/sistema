@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(213, 235, 255);
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+   justify-content: center;
+}
+
+input{
+    border-color: none;
+    border-style: none;
+    width: 250px;
+}
+
+
+
+
+
+/*cabeza de pagina*/
+.encabezado{
+    background-color: #281250;
+    padding: 20px;
+}
+
+
+
+
+
+
+/*principal box*/
+#Bienvenida{
+    
+    text-align: center;
+    background: linear-gradient(rgb(250, 172, 70), rgb(253, 95, 95));
+    padding: 4px;
+    margin: 40px;
+    border-radius: 60px;
+
+}
+
+#Menu{
+    display: inline-flex;
+    margin: 0px 100px 50px 460px;
+   
+}
+
+input{
+    border-color: none;
+    border-style: none;
+    width: 250px;
+}
+
+#imagen1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+   position: relative;
+
+
+}
+.ingreso{
+
+    text-align: center;
+    background: linear-gradient(rgb(39, 181, 247), rgb(176, 171, 245)); 
+    padding: 50px;
+    height: 235px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    top: 10px;
+    
+
+ 
+    
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+
+
+
+
+/*boton de ingreso*/
+.but1{
+    position: relative;
+    background: linear-gradient(rgb(253, 133, 243), rgb(255, 93, 93));
+    color:  #ffffff;
+    border-radius: 10px;
+    border-color: #ffffff;
+    height: 30px;
+    width: 250px;
+}
+
+.but1:hover{
+    background: linear-gradient(rgb(146, 248, 255), rgb(198, 149, 245));
+    border-color: aliceblue;
+
+}
+
+#ingresar{
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 70px;
+    padding-right: 90px;
+    
+}
+
+
+
+/*boton de crear perfil*/
+
+.but2{
+    position: relative;
+    background: linear-gradient(rgb(255, 94, 0), rgb(255, 136, 0));
+    color:  #ffffff;
+    border-radius: 20px;
+    border-style: none;
+    border: #000000 solid 1px;
+    height: 30px;
+    width: 400px;
+    left: 650px;
+}
+
+.but2:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;}
+
+
+#crear{
+        color: white;
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 140px;
+        padding-right: 143px;
+}
+
+
+
+
+
+/*pie de pagina*/
+#footer{
+    background-color: #281250;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 72px;
+    margin: 0px;
+}
+
+
+
+ 

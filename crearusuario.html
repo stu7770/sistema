@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+        
+    <head> <!-- codificación, título, adaptación de pantalla -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="crearusuario.css">
+        <title>Sistema de creacion de informes</title>
+        <meta name="theme-color" content="#89f">
+    </head>
+
+    <body>
+
+        <section>
+            <div class="encabezado"> <!-- Encabezado de pagina -->
+                <header>
+                    <p>Bienvenido al sistema, aquí podrás generar tus informes.</p>
+                </header>
+            </div>
+        </section>
+
+        <br>
+
+        <section>
+            <h1>Hola, aquí puede crear su usuario</h1>
+            <p>Los datos que se requieren para crear su usuario son los siguientes:</p>
+
+            <!-- Formulario para el registro del usuario -->
+            <form action="registrar.php" method="post">
+                <div id="crearusuario">
+                    <ul>
+                        <li>
+                            <input id="ID_cedula" type="number" name="Cedula" placeholder="Ingrese su Cedula" required>
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <input id="Nombre" type="text" name="Nombre" placeholder="Ingrese su Nombre" required>
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <input id="Celular" type="tel" name="Telefono" placeholder="Ingrese su Teléfono" required>
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <input id="Correo" type="email" name="Correo" placeholder="Ingrese su Correo" required>
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <input id="contraseña" type="password" name="Contraseña" placeholder="Ingrese una Contraseña" required>
+                        </li>
+
+                        <br>
+
+                        <li>
+                            <input id="boton" type="submit" name="enviar" value="Registrar Usuario">
+                        </li>
+                    </ul>
+                </div>
+            </form>
+
+        </section>
+
+    </body>
+</html>

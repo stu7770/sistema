@@ -1,0 +1,156 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*barra de tarea*/
+.lateralmenu{
+    position: fixed; 
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+    padding-top:  30px;
+    height: 340px;
+    width: 100px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(39, 181, 247), rgb(176, 171, 245)); 
+ 
+   
+ }
+
+
+
+/*botones de la barra*/
+#menu1{
+    color:rgb(255, 255, 255);
+    background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+    border-color: rgb(0, 125, 235);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    margin: -40px;
+ }
+ #menu1:hover{
+     background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+     border-color: aliceblue;
+ }
+ .menu1{
+     color: white;
+     text-decoration: none;
+     padding: 15px;
+     padding-left: 20px;
+     border-radius: 20px;
+ }
+ 
+ 
+ #menu2{
+     color:rgb(255, 255, 255);
+     background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+     border-color: rgb(0, 126, 236);
+     border-radius: 20px;
+     width: 100px;
+     height: 50px;
+     position: relative;
+     margin: -40px;
+     margin-top: 40px; 
+ }
+ #menu2:hover{
+     background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+     border-color: aliceblue;
+ }
+ .menu2{
+     color: white;
+     text-decoration: none;
+     padding: 15px;
+     padding-left: 10px;
+     border-radius: 20px;
+ }
+ 
+ 
+ 
+ #menu3{
+     color:rgb(255, 255, 255);
+     background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+     border-color: rgb(1, 119, 223);
+     border-radius: 20px;
+     width: 100px;
+     height: 50px;
+     position: relative;
+     margin: -40px;
+     margin-top: 40px; 
+ }
+ #menu3:hover{
+     background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+     border-color: aliceblue;
+ }
+ .menu3{
+     float: left;
+     color: white;
+     text-decoration: none;
+     padding-right:20px;
+     padding-left: 15px;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     border-radius: 20px;
+ }
+ 
+ 
+ #menu4{
+     color:rgb(255, 255, 255);
+     background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+     border-color: rgb(0, 125, 235);
+     border-radius: 20px;
+     height: 50px;
+     width: 100px;
+     position: relative;
+     margin: -40px;
+ }
+ 
+ #menu4:hover{
+      background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+      border-color: aliceblue;
+ }
+  
+ .menu4{
+     float: left;
+     color: white;
+     text-decoration: none;
+     padding-left: 20px;
+     padding-right: 25px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     border-radius: 20px;
+ }
+ 
+ 
+    
+     
+ 

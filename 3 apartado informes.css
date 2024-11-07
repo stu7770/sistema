@@ -1,0 +1,254 @@
+body
+{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin: auto;
+}
+
+
+/*cabeza*/
+.cabeza{     
+    background-color: #281250;
+    padding: 20px;
+    color: white;
+}  
+
+
+.saludo{
+    background: linear-gradient(rgb(250, 172, 70), rgb(253, 95, 95));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 40px;   
+}
+
+
+
+/*buscador*/
+#finder{
+    text-align: center;}
+
+
+.buscador{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    border-radius:5px;
+    border-color: gainsboro;
+    border-style:groove;
+    width: 300px;
+}
+.Buscar{
+    color: white;
+    background-color: rgb(0, 153, 255);
+    border-radius: 5px;  
+    border-style: solid;
+    width: 70px;
+    height: 20px;
+}
+.Buscar:hover{
+    background-color: rgb(122, 164, 255);
+}
+
+   
+
+/*barra de tarea*/
+.lateralmenu{
+   position: fixed; 
+   float: left;
+   margin-left: 10px;
+   padding: 20px;
+   padding-top:  30px;
+   height: 340px;
+   width: 100px;
+   border-radius: 10px;
+   background:linear-gradient(rgb(39, 181, 247), rgb(176, 171, 245)); 
+
+  
+}
+
+
+
+/*botones de la barra*/
+#menu1{
+   color:rgb(255, 255, 255);
+   background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+   border-color: rgb(0, 125, 235);
+   border-radius: 20px;
+   height: 50px;
+   width: 100px;
+   position: relative;
+   margin: -40px;
+}
+#menu1:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+.menu1{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+
+#menu2{
+    color:rgb(255, 255, 255);
+    background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+    border-color: rgb(0, 126, 236);
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin: -40px;
+    margin-top: 40px; 
+}
+#menu2:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+.menu2{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+
+
+#menu3{
+    color:rgb(255, 255, 255);
+    background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+    border-color: rgb(1, 119, 223);
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin: -40px;
+    margin-top: 40px; 
+}
+#menu3:hover{
+    background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+    border-color: aliceblue;
+}
+.menu3{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding-right:20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+#menu4{
+    color:rgb(255, 255, 255);
+    background: linear-gradient(rgb(142, 213, 255), rgb(18, 183, 248)); 
+    border-color: rgb(0, 125, 235);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    margin: -40px;
+}
+
+#menu4:hover{
+     background: linear-gradient(rgb(178, 135, 226), rgb(185, 110, 255));
+     border-color: aliceblue;
+}
+ 
+.menu4{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+
+}
+
+
+   
+    
+
+
+
+/*tabla de datos*/
+.informes{
+    text-align: center;
+    border-collapse:separate;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 212, 255);
+    border-color: rgb(133, 176, 241);
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 70%;
+    float:center;
+
+} 
+
+
+
+/*Productos*/
+input{
+    border-color: #281250;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    appearance: none;
+
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+
+
+img{
+    border-radius: 10px;
+    border: #281250 1px solid;
+}
+
+.Enviar{
+    background-color: #281250;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.Enviar:hover{
+    background-color: #4e007a;
+    height: 30px;
+    border-radius: 50px;
+    text-shadow: 100%;
+    border-color: aliceblue;
+    
+}
+
+
+
+
+
+/*footer*/
+#footer{
+    background-color: #281250;
+    color: white;
+    height: 150px;
+    padding: 20px;
+}
+
+  

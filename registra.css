@@ -1,0 +1,10 @@
+.mensaje-exito {
+    background-color: #4CAF50; /* Color verde de fondo */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
